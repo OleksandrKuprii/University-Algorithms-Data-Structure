@@ -1,0 +1,46 @@
+digraph {
+	rankdir = LR;
+	node[shape=oval, style="filled", penwidth=2, color="darkblue" fillcolor="cornflowerblue"];
+	a[label="a\nd: 0"];
+	b[label="b\nd: 3"];
+	c[label="c\nd: 4"];
+	d[label="d\nd: 5"];
+	e[label="e\nd: 1"];
+	f[label="f\nd: 3"];
+	g[label="g\nd: 6"];
+	h[label="h\nd: 6"];
+	i[label="i\nd: 3"];
+	j[label="j\nd: 4"];
+	k[label="k\nd: 7"];
+	l[label="l\nd: 9"];
+	m[label="m\nd: 4"];
+	n[label="n\nd: 5"];
+	o[label="o\nd: 8"];
+	p[label="p\nd: 9"];
+
+	edge[dir = none];
+	o -> p [penwidth=2.5, label="1"];
+	n -> o [penwidth=0.25, fontsize=8, label="3"];
+	j -> n [penwidth=0.25, fontsize=8, label="2"];
+	i -> j [penwidth=0.25, fontsize=8, label="2"];
+	g -> h [penwidth=0.25, fontsize=8, label="1"];
+	i -> m [penwidth=2.5, label="1"];
+	f -> g [penwidth=0.25, fontsize=8, label="4"];
+	g -> k [penwidth=0.25, fontsize=8, label="2"];
+	c -> d [penwidth=2.5, label="1"];
+	d -> h [penwidth=2.5, label="1"];
+	e -> i [penwidth=2.5, label="2"];
+	m -> n [penwidth=2.5, label="1"];
+	l -> p [penwidth=0.25, fontsize=8, label="1"];
+	b -> c [penwidth=2.5, label="1"];
+	c -> g [penwidth=2.5, label="2"];
+	j -> k [penwidth=2.5, label="3"];
+	e -> f [penwidth=2.5, label="2"];
+	h -> l [penwidth=0.25, fontsize=8, label="4"];
+	b -> f [penwidth=0.25, fontsize=8, label="1"];
+	k -> l [penwidth=2.5, label="2"];
+	a -> e [penwidth=2.5, label="1"];
+	f -> j [penwidth=2.5, label="1"];
+	k -> o [penwidth=2.5, label="1"];
+	a -> b [penwidth=2.5, label="3"];
+}

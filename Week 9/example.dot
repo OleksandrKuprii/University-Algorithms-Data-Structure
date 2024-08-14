@@ -1,0 +1,17 @@
+digraph G {
+	node [shape = record,height=.1];
+	subgraph cluster1 {
+		label = ""
+		fontsize = 18
+		fontcolor = blue
+		a1 [label="<l> | {<c> 2} | <r> "]
+		a2 [label="<l> | {<c> 3} | <r> "]
+		a3 [label="<l> | {<c> 5} | <r> "]
+		a4 [label="<l> | {<c> 7} | <r> "]
+		a5 [label="<l> | {<c> 11} | <r> "]
+		a1:l -> a2:c
+		a2:l -> a3:c
+		a3:r -> a4:c
+		a4:l -> a5:c
+	}
+}

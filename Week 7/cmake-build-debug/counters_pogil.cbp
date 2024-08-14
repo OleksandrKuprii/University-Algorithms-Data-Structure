@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="counters_pogil"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="letters_counting">
+				<Option output="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug/letters_counting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 letters_counting"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="letters_counting/fast">
+				<Option output="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug/letters_counting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 letters_counting/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="words_counting">
+				<Option output="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug/words_counting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 words_counting"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="words_counting/fast">
+				<Option output="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug/words_counting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 words_counting/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/LetterCounter/LangugageRecognizer.c">
+			<Option target="letters_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/LetterCounter/LangugageRecognizer.h">
+			<Option target="letters_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/LetterCounter/LetterCounter.c">
+			<Option target="letters_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/LetterCounter/LetterCounter.h">
+			<Option target="letters_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/LetterCounter/main_letters.c">
+			<Option target="letters_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/WordCounter/Counter.c">
+			<Option target="words_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/WordCounter/Counter.h">
+			<Option target="words_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/WordCounter/main_words.c">
+			<Option target="words_counting"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/alice0.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/alice1.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/alice2.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 7/alice3.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="shortestpaths"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shortestpaths">
+				<Option output="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/cmake-build-debug/shortestpaths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 shortestpaths"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shortestpaths/fast">
+				<Option output="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/cmake-build-debug/shortestpaths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 shortestpaths/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oleksandr/Saxion/Algorithms\ &amp;\ DS/Week\ 13/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/colours.h">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/graph.cpp">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/graph.h">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/main.cpp">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/path_data.cpp">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/path_data.h">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/shortest_paths.cpp">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/shortest_paths.h">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/shortest_paths_tester.cpp">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/shortest_paths_tester.h">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/vertex_heap.cpp">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/vertex_heap.h">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/visitor.cpp">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/visitor.h">
+			<Option target="shortestpaths"/>
+		</Unit>
+		<Unit filename="/Users/oleksandr/Saxion/Algorithms &amp; DS/Week 13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

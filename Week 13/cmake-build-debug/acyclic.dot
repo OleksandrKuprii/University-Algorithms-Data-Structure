@@ -1,0 +1,33 @@
+digraph {
+	rankdir = LR;
+	node[shape=oval, style="filled", penwidth=2, color="darkblue" fillcolor="cornflowerblue"];
+	a[label="a\nd: 0"];
+	b[label="b\nd: 1"];
+	c[label="c\nd: 1"];
+	d[label="d\nd: 1"];
+	e[label="e\nd: 3"];
+	f[label="f\nd: 4"];
+	g[label="g"];
+	h[label="h\nd: 5"];
+	i[label="i\nd: 6"];
+	j[label="j\nd: 7"];
+
+	edge[dir = forward];
+	h -> i [penwidth=2.5, label="1"];
+	g -> f [penwidth=0.25, fontsize=8, label="1"];
+	g -> i [penwidth=0.25, fontsize=8, label="4"];
+	f -> i [penwidth=0.25, fontsize=8, label="3"];
+	f -> h [penwidth=0.25, fontsize=8, label="1"];
+	i -> j [penwidth=2.5, label="1"];
+	a -> c [penwidth=2.5, label="1"];
+	d -> g [penwidth=0.25, fontsize=8, label="1"];
+	e -> f [penwidth=2.5, label="1"];
+	c -> b [penwidth=0.25, fontsize=8, label="1"];
+	c -> d [penwidth=0.25, fontsize=8, label="1"];
+	e -> h [penwidth=2.5, label="2"];
+	a -> d [penwidth=2.5, label="1"];
+	c -> f [penwidth=0.25, fontsize=8, label="3"];
+	b -> e [penwidth=2.5, label="2"];
+	h -> j [penwidth=0.25, fontsize=8, label="3"];
+	a -> b [penwidth=2.5, label="1"];
+}

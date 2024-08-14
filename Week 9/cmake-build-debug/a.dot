@@ -1,0 +1,27 @@
+digraph G {
+	node [shape = record,height=.1];
+	subgraph cluster1 {
+		label = ""
+		fontsize = 18
+		fontcolor = blue
+		a1 [label="<l> | {<c> 42} | <r> "]
+		a2 [label="<l> | {<c> 23} | <r> "]
+		a3 [label="<l> | {<c> 17} | <r> "]
+		a4 [label="<l> | {<c> 31} | <r> "]
+		a5 [label="<l> | {<c> 67} | <r> "]
+		a6 [label="<l> | {<c> 62} | <r> "]
+		a7 [label="<l> | {<c> 61} | <r> "]
+		a8 [label="<l> | {<c> 71} | <r> "]
+		a9 [label="<l> | {<c> 68} | <r> "]
+		a10 [label="<l> | {<c> 79} | <r> "]
+		a1:l -> a2:c
+		a2:l -> a3:c
+		a2:r -> a4:c
+		a1:r -> a5:c
+		a5:l -> a6:c
+		a6:l -> a7:c
+		a5:r -> a8:c
+		a8:l -> a9:c
+		a8:r -> a10:c
+	}
+}

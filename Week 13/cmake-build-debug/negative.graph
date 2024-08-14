@@ -1,0 +1,9 @@
+undirected
+a b 1
+a c 5
+b d 2
+c d -4
+d f 2
+d e 1
+e g 3
+f g 2

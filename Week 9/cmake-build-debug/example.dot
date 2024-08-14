@@ -1,0 +1,15 @@
+digraph G {
+	node [shape = record,height=.1];
+	subgraph cluster1 {
+		label = ""
+		fontsize = 18
+		fontcolor = blue
+		a1 [label="<l> | {<c> 0} | <r> "]
+		a2 [label="<l> | {<c> -2} | <r> "]
+		a3 [label="<l> | {<c> 2} | <r> "]
+		a4 [label="<l> | {<c> 1} | <r> "]
+		a1:l -> a2:c
+		a1:r -> a3:c
+		a3:l -> a4:c
+	}
+}

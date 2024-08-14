@@ -1,0 +1,303 @@
+digraph G {
+	node [shape = record,height=.1];
+	subgraph cluster1 {
+		label = "Inserted 1"
+		fontsize = 18
+		fontcolor = blue
+		a1 [label="<l> | {<c> 1} | <r> "]
+	}
+	subgraph cluster2 {
+		label = "Inserted 2"
+		fontsize = 18
+		fontcolor = blue
+		a2 [label="<l> | {<c> 1} | <r> "]
+		a3 [label="<l> | {<c> 2} | <r> "]
+		a2:r -> a3:c
+	}
+	subgraph cluster4 {
+		label = "Inserted 3"
+		fontsize = 18
+		fontcolor = blue
+		a4 [label="<l> | {<c> 2} | <r> "]
+		a5 [label="<l> | {<c> 1} | <r> "]
+		a6 [label="<l> | {<c> 3} | <r> "]
+		a4:l -> a5:c
+		a4:r -> a6:c
+	}
+	subgraph cluster7 {
+		label = "Inserted 4"
+		fontsize = 18
+		fontcolor = blue
+		a7 [label="<l> | {<c> 2} | <r> "]
+		a8 [label="<l> | {<c> 1} | <r> "]
+		a9 [label="<l> | {<c> 3} | <r> "]
+		a10 [label="<l> | {<c> 4} | <r> "]
+		a7:l -> a8:c
+		a7:r -> a9:c
+		a9:r -> a10:c
+	}
+	subgraph cluster11 {
+		label = "Inserted 5"
+		fontsize = 18
+		fontcolor = blue
+		a11 [label="<l> | {<c> 2} | <r> "]
+		a12 [label="<l> | {<c> 1} | <r> "]
+		a13 [label="<l> | {<c> 4} | <r> "]
+		a14 [label="<l> | {<c> 3} | <r> "]
+		a15 [label="<l> | {<c> 5} | <r> "]
+		a11:l -> a12:c
+		a11:r -> a13:c
+		a13:l -> a14:c
+		a13:r -> a15:c
+	}
+	subgraph cluster16 {
+		label = "Inserted 6"
+		fontsize = 18
+		fontcolor = blue
+		a16 [label="<l> | {<c> 4} | <r> "]
+		a17 [label="<l> | {<c> 2} | <r> "]
+		a18 [label="<l> | {<c> 1} | <r> "]
+		a19 [label="<l> | {<c> 3} | <r> "]
+		a20 [label="<l> | {<c> 5} | <r> "]
+		a21 [label="<l> | {<c> 6} | <r> "]
+		a16:l -> a17:c
+		a17:l -> a18:c
+		a17:r -> a19:c
+		a16:r -> a20:c
+		a20:r -> a21:c
+	}
+	subgraph cluster22 {
+		label = "Inserted 7"
+		fontsize = 18
+		fontcolor = blue
+		a22 [label="<l> | {<c> 4} | <r> "]
+		a23 [label="<l> | {<c> 2} | <r> "]
+		a24 [label="<l> | {<c> 1} | <r> "]
+		a25 [label="<l> | {<c> 3} | <r> "]
+		a26 [label="<l> | {<c> 6} | <r> "]
+		a27 [label="<l> | {<c> 5} | <r> "]
+		a28 [label="<l> | {<c> 7} | <r> "]
+		a22:l -> a23:c
+		a23:l -> a24:c
+		a23:r -> a25:c
+		a22:r -> a26:c
+		a26:l -> a27:c
+		a26:r -> a28:c
+	}
+	subgraph cluster29 {
+		label = "Inserted 8"
+		fontsize = 18
+		fontcolor = blue
+		a29 [label="<l> | {<c> 4} | <r> "]
+		a30 [label="<l> | {<c> 2} | <r> "]
+		a31 [label="<l> | {<c> 1} | <r> "]
+		a32 [label="<l> | {<c> 3} | <r> "]
+		a33 [label="<l> | {<c> 6} | <r> "]
+		a34 [label="<l> | {<c> 5} | <r> "]
+		a35 [label="<l> | {<c> 7} | <r> "]
+		a36 [label="<l> | {<c> 8} | <r> "]
+		a29:l -> a30:c
+		a30:l -> a31:c
+		a30:r -> a32:c
+		a29:r -> a33:c
+		a33:l -> a34:c
+		a33:r -> a35:c
+		a35:r -> a36:c
+	}
+	subgraph cluster37 {
+		label = "Inserted 9"
+		fontsize = 18
+		fontcolor = blue
+		a37 [label="<l> | {<c> 4} | <r> "]
+		a38 [label="<l> | {<c> 2} | <r> "]
+		a39 [label="<l> | {<c> 1} | <r> "]
+		a40 [label="<l> | {<c> 3} | <r> "]
+		a41 [label="<l> | {<c> 6} | <r> "]
+		a42 [label="<l> | {<c> 5} | <r> "]
+		a43 [label="<l> | {<c> 8} | <r> "]
+		a44 [label="<l> | {<c> 7} | <r> "]
+		a45 [label="<l> | {<c> 9} | <r> "]
+		a37:l -> a38:c
+		a38:l -> a39:c
+		a38:r -> a40:c
+		a37:r -> a41:c
+		a41:l -> a42:c
+		a41:r -> a43:c
+		a43:l -> a44:c
+		a43:r -> a45:c
+	}
+	subgraph cluster46 {
+		label = "Inserted 10"
+		fontsize = 18
+		fontcolor = blue
+		a46 [label="<l> | {<c> 4} | <r> "]
+		a47 [label="<l> | {<c> 2} | <r> "]
+		a48 [label="<l> | {<c> 1} | <r> "]
+		a49 [label="<l> | {<c> 3} | <r> "]
+		a50 [label="<l> | {<c> 8} | <r> "]
+		a51 [label="<l> | {<c> 6} | <r> "]
+		a52 [label="<l> | {<c> 5} | <r> "]
+		a53 [label="<l> | {<c> 7} | <r> "]
+		a54 [label="<l> | {<c> 9} | <r> "]
+		a55 [label="<l> | {<c> 10} | <r> "]
+		a46:l -> a47:c
+		a47:l -> a48:c
+		a47:r -> a49:c
+		a46:r -> a50:c
+		a50:l -> a51:c
+		a51:l -> a52:c
+		a51:r -> a53:c
+		a50:r -> a54:c
+		a54:r -> a55:c
+	}
+	subgraph cluster56 {
+		label = "Inserted 11"
+		fontsize = 18
+		fontcolor = blue
+		a56 [label="<l> | {<c> 4} | <r> "]
+		a57 [label="<l> | {<c> 2} | <r> "]
+		a58 [label="<l> | {<c> 1} | <r> "]
+		a59 [label="<l> | {<c> 3} | <r> "]
+		a60 [label="<l> | {<c> 8} | <r> "]
+		a61 [label="<l> | {<c> 6} | <r> "]
+		a62 [label="<l> | {<c> 5} | <r> "]
+		a63 [label="<l> | {<c> 7} | <r> "]
+		a64 [label="<l> | {<c> 10} | <r> "]
+		a65 [label="<l> | {<c> 9} | <r> "]
+		a66 [label="<l> | {<c> 11} | <r> "]
+		a56:l -> a57:c
+		a57:l -> a58:c
+		a57:r -> a59:c
+		a56:r -> a60:c
+		a60:l -> a61:c
+		a61:l -> a62:c
+		a61:r -> a63:c
+		a60:r -> a64:c
+		a64:l -> a65:c
+		a64:r -> a66:c
+	}
+	subgraph cluster67 {
+		label = "Inserted 12"
+		fontsize = 18
+		fontcolor = blue
+		a67 [label="<l> | {<c> 8} | <r> "]
+		a68 [label="<l> | {<c> 4} | <r> "]
+		a69 [label="<l> | {<c> 2} | <r> "]
+		a70 [label="<l> | {<c> 1} | <r> "]
+		a71 [label="<l> | {<c> 3} | <r> "]
+		a72 [label="<l> | {<c> 6} | <r> "]
+		a73 [label="<l> | {<c> 5} | <r> "]
+		a74 [label="<l> | {<c> 7} | <r> "]
+		a75 [label="<l> | {<c> 10} | <r> "]
+		a76 [label="<l> | {<c> 9} | <r> "]
+		a77 [label="<l> | {<c> 11} | <r> "]
+		a78 [label="<l> | {<c> 12} | <r> "]
+		a67:l -> a68:c
+		a68:l -> a69:c
+		a69:l -> a70:c
+		a69:r -> a71:c
+		a68:r -> a72:c
+		a72:l -> a73:c
+		a72:r -> a74:c
+		a67:r -> a75:c
+		a75:l -> a76:c
+		a75:r -> a77:c
+		a77:r -> a78:c
+	}
+	subgraph cluster79 {
+		label = "Inserted 13"
+		fontsize = 18
+		fontcolor = blue
+		a79 [label="<l> | {<c> 8} | <r> "]
+		a80 [label="<l> | {<c> 4} | <r> "]
+		a81 [label="<l> | {<c> 2} | <r> "]
+		a82 [label="<l> | {<c> 1} | <r> "]
+		a83 [label="<l> | {<c> 3} | <r> "]
+		a84 [label="<l> | {<c> 6} | <r> "]
+		a85 [label="<l> | {<c> 5} | <r> "]
+		a86 [label="<l> | {<c> 7} | <r> "]
+		a87 [label="<l> | {<c> 10} | <r> "]
+		a88 [label="<l> | {<c> 9} | <r> "]
+		a89 [label="<l> | {<c> 12} | <r> "]
+		a90 [label="<l> | {<c> 11} | <r> "]
+		a91 [label="<l> | {<c> 13} | <r> "]
+		a79:l -> a80:c
+		a80:l -> a81:c
+		a81:l -> a82:c
+		a81:r -> a83:c
+		a80:r -> a84:c
+		a84:l -> a85:c
+		a84:r -> a86:c
+		a79:r -> a87:c
+		a87:l -> a88:c
+		a87:r -> a89:c
+		a89:l -> a90:c
+		a89:r -> a91:c
+	}
+	subgraph cluster92 {
+		label = "Inserted 14"
+		fontsize = 18
+		fontcolor = blue
+		a92 [label="<l> | {<c> 8} | <r> "]
+		a93 [label="<l> | {<c> 4} | <r> "]
+		a94 [label="<l> | {<c> 2} | <r> "]
+		a95 [label="<l> | {<c> 1} | <r> "]
+		a96 [label="<l> | {<c> 3} | <r> "]
+		a97 [label="<l> | {<c> 6} | <r> "]
+		a98 [label="<l> | {<c> 5} | <r> "]
+		a99 [label="<l> | {<c> 7} | <r> "]
+		a100 [label="<l> | {<c> 12} | <r> "]
+		a101 [label="<l> | {<c> 10} | <r> "]
+		a102 [label="<l> | {<c> 9} | <r> "]
+		a103 [label="<l> | {<c> 11} | <r> "]
+		a104 [label="<l> | {<c> 13} | <r> "]
+		a105 [label="<l> | {<c> 14} | <r> "]
+		a92:l -> a93:c
+		a93:l -> a94:c
+		a94:l -> a95:c
+		a94:r -> a96:c
+		a93:r -> a97:c
+		a97:l -> a98:c
+		a97:r -> a99:c
+		a92:r -> a100:c
+		a100:l -> a101:c
+		a101:l -> a102:c
+		a101:r -> a103:c
+		a100:r -> a104:c
+		a104:r -> a105:c
+	}
+	subgraph cluster106 {
+		label = "Inserted 15"
+		fontsize = 18
+		fontcolor = blue
+		a106 [label="<l> | {<c> 8} | <r> "]
+		a107 [label="<l> | {<c> 4} | <r> "]
+		a108 [label="<l> | {<c> 2} | <r> "]
+		a109 [label="<l> | {<c> 1} | <r> "]
+		a110 [label="<l> | {<c> 3} | <r> "]
+		a111 [label="<l> | {<c> 6} | <r> "]
+		a112 [label="<l> | {<c> 5} | <r> "]
+		a113 [label="<l> | {<c> 7} | <r> "]
+		a114 [label="<l> | {<c> 12} | <r> "]
+		a115 [label="<l> | {<c> 10} | <r> "]
+		a116 [label="<l> | {<c> 9} | <r> "]
+		a117 [label="<l> | {<c> 11} | <r> "]
+		a118 [label="<l> | {<c> 14} | <r> "]
+		a119 [label="<l> | {<c> 13} | <r> "]
+		a120 [label="<l> | {<c> 15} | <r> "]
+		a106:l -> a107:c
+		a107:l -> a108:c
+		a108:l -> a109:c
+		a108:r -> a110:c
+		a107:r -> a111:c
+		a111:l -> a112:c
+		a111:r -> a113:c
+		a106:r -> a114:c
+		a114:l -> a115:c
+		a115:l -> a116:c
+		a115:r -> a117:c
+		a114:r -> a118:c
+		a118:l -> a119:c
+		a118:r -> a120:c
+	}
+}

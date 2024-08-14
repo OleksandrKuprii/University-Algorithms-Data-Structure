@@ -1,0 +1,14 @@
+directed
+a b
+b a
+b c
+c d
+d e
+e d
+d f
+f b
+f c
+b g
+g d
+h a
+h b
